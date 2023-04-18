@@ -23,17 +23,17 @@ document.addEventListener("DOMContentLoaded", () => {
       if (flag || n === "") return;
 
       if (cnt === 8) {
-        box.innerHTML = "<img src='../img/heart.png' alt='heart' />";
+        box.innerHTML = "<img src='./img/heart.png' alt='heart' />";
         h2.innerHTML = "성공";
         flag = true;
         return;
       }
 
       if (arr[n - 1] === 0) {
-        box.innerHTML = "<img src='../img/heart.png' alt='heart' />";
+        box.innerHTML = "<img src='./img/heart.png' alt='heart' />";
         cnt++;
       } else {
-        box.innerHTML = "<img src='../img/boom.png' alt='boom' />";
+        box.innerHTML = "<img src='./img/boom.png' alt='boom' />";
         h2.innerHTML = "실패";
         flag = true;
       }
