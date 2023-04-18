@@ -1,0 +1,14 @@
+.board {
+  margin: 0 auto;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.board > div {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  border: 1px solid #000;
+}
